@@ -49,7 +49,6 @@ bool pairSum(node* root, int sum, unordered_set<int>&st)
     else
         st.insert(root->data);
     return pairSum(root->right,sum,st);
-
 }
 int main()
 {
